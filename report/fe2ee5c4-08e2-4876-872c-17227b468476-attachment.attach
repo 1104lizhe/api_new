@@ -1,1 +1,0 @@
-{'username': 'testapi@qq.com', 'realname': 'test', 'role': 1, 'password': 1, 'target_department_id': '363a2d4bb727489981a4e4571b6d1359', 'is_login': 1, 'company_key': 'af6bce91-0eec-409b-9627-754d23dd087c', 'nonce_str': 'FbIBTg', 'sign': '2F058E1C59E60BB791BA0E8083B58E6E'}
