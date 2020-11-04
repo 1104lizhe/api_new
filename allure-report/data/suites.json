@@ -1,0 +1,370 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase.P0_case",
+    "children" : [ {
+      "name" : "test_department",
+      "children" : [ {
+        "name" : "TestDepartmentP0",
+        "children" : [ {
+          "name" : "test_department_add[params0]",
+          "uid" : "c0d7c251640f175b",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784215129,
+            "stop" : 1596784220759,
+            "duration" : 5630
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department/add', 'name': '测试新增部门api的', 'parent_id': 'dea0dd24e606464e8abdf837b64090ff', '预期结果': '{\"msg\":\"成功\",\"code\":0,\"data\":{\"department_id\":\"82600715de6945b8af642f446dcdda70\"}}', '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_add[params1]",
+          "uid" : "8ff62ac1ed7cb7e1",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784220764,
+            "stop" : 1596784221035,
+            "duration" : 271
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department/add', 'name': '新增的部门01', 'parent_id': 'dea0dd24e606464e8abdf837b64090ff', '预期结果': \"{'msg': '部门已存在', 'code': 20302, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_add[params2]",
+          "uid" : "50e0c342aabd54e1",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784221040,
+            "stop" : 1596784221660,
+            "duration" : 620
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department/add', 'name': '新增的部门01', 'parent_id': 'dea0dd24e606464e8abdf837b64090ff1', '预期结果': \"{'msg': 'parent_id参数错误', 'code': 21002, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_update[params0]",
+          "uid" : "fda4f4cf7e93e77f",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784222853,
+            "stop" : 1596784223015,
+            "duration" : 162
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department/edit', 'name': '测试更新部门api的name', 'target_department_id': 'f1c67f5fff1748828177a7c400d825f2', '预期结果': '{\"msg\":\"成功\",\"code\":0,\"data\":None}', '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_update[params1]",
+          "uid" : "50912c79a1ad30ec",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784223019,
+            "stop" : 1596784223155,
+            "duration" : 136
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department/edit', 'name': '测试one', 'target_department_id': '2d5dd1ea5eed4d2a8768a7897e7024b1', '预期结果': \"{'msg': '部门已存在', 'code': 20302, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_update[params2]",
+          "uid" : "385c5c7e8e386184",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784223159,
+            "stop" : 1596784223305,
+            "duration" : 146
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department/edit', 'name': 'edit04', 'target_department_id': 'f1c67f5fff1748828177a7c400d825f21', '预期结果': \"{'msg': '部门不存在', 'code': 20303, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_update[params3]",
+          "uid" : "8282805f03725973",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784223310,
+            "stop" : 1596784223442,
+            "duration" : 132
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department/edit', 'target_department_id': 'f1c67f5fff1748828177a7c400d825f2', '预期结果': \"{'msg': 'target_department_id或name参数错误', 'code': 21002, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_select[params0]",
+          "uid" : "6f99ea986326878a",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784223877,
+            "stop" : 1596784223993,
+            "duration" : 116
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department', 'page_num': 1, 'page_size': 10, '预期结果': \"{'msg': '成功', 'code': 0, 'data': {'count': 226, 'rows': [{'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '北京爱亲科技股份有限公司', 'tax_no': '91110101556883371X', 'is_branch': 1, 'department_id': '363a2d4bb727489981a4e4571b6d1359'}, {'parent_id': '363a2d4bb727489981a4e4571b6d1359', 'department_name': '财务部1', 'tax_no': '', 'is_branch': 0, 'department_id': '8cb0e19d1e6f48b1a9ee0bc868e189fe'}, {'parent_id': '363a2d4bb727489981a4e4571b6d1359', 'department_name': '行政部', 'tax_no': '', 'is_branch': 0, 'department_id': '6b5e4fe97f854d9c99823651eb5ec969'}, {'parent_id': '6b5e4fe97f854d9c99823651eb5ec969', 'department_name': '秘书部', 'tax_no': '', 'is_branch': 0, 'department_id': 'eed10dcf91cf41cc8913a857a8d55bb9'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '重庆市华西口腔门诊有限公司', 'tax_no': '91500107MA5U4GB33L', 'is_branch': 1, 'department_id': '3a8d5a5179324454be00e0e6a254f7e5'}, {'parent_id': '3a8d5a5179324454be00e0e6a254f7e5', 'department_name': '市场部', 'tax_no': '', 'is_branch': 0, 'department_id': '0f27880843614e439cddad197af385b4'}, {'parent_id': '3a8d5a5179324454be00e0e6a254f7e5', 'department_name': '技术部', 'tax_no': '', 'is_branch': 0, 'department_id': 'd5b14bd118dd4617b935ffb571502e10'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '北京缔联科技有限公司3', 'tax_no': '23213123', 'is_branch': 1, 'department_id': 'dea0dd24e606464e8abdf837b64090ff'}, {'parent_id': 'dea0dd24e606464e8abdf837b64090ff', 'department_name': '测试部门', 'tax_no': '', 'is_branch': 0, 'department_id': '6d10819ca3f2434780ee7ba86136459b'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '四川省医学科学院（四川省人民医院）', 'tax_no': '1251000045071756XY', 'is_branch': 1, 'department_id': '8da63bfd4a0a482cb8661c0bcdec7693'}]}}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_select[params1]",
+          "uid" : "d297fca4acbffcb7",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784224023,
+            "stop" : 1596784224137,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department', 'page_num': '', 'page_size': '', '预期结果': \"{'msg': '成功', 'code': 0, 'data': {'count': 226, 'rows': [{'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '北京爱亲科技股份有限公司', 'tax_no': '91110101556883371X', 'is_branch': 1, 'department_id': '363a2d4bb727489981a4e4571b6d1359'}, {'parent_id': '363a2d4bb727489981a4e4571b6d1359', 'department_name': '财务部1', 'tax_no': '', 'is_branch': 0, 'department_id': '8cb0e19d1e6f48b1a9ee0bc868e189fe'}, {'parent_id': '363a2d4bb727489981a4e4571b6d1359', 'department_name': '行政部', 'tax_no': '', 'is_branch': 0, 'department_id': '6b5e4fe97f854d9c99823651eb5ec969'}, {'parent_id': '6b5e4fe97f854d9c99823651eb5ec969', 'department_name': '秘书部', 'tax_no': '', 'is_branch': 0, 'department_id': 'eed10dcf91cf41cc8913a857a8d55bb9'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '重庆市华西口腔门诊有限公司', 'tax_no': '91500107MA5U4GB33L', 'is_branch': 1, 'department_id': '3a8d5a5179324454be00e0e6a254f7e5'}, {'parent_id': '3a8d5a5179324454be00e0e6a254f7e5', 'department_name': '市场部', 'tax_no': '', 'is_branch': 0, 'department_id': '0f27880843614e439cddad197af385b4'}, {'parent_id': '3a8d5a5179324454be00e0e6a254f7e5', 'department_name': '技术部', 'tax_no': '', 'is_branch': 0, 'department_id': 'd5b14bd118dd4617b935ffb571502e10'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '北京缔联科技有限公司3', 'tax_no': '23213123', 'is_branch': 1, 'department_id': 'dea0dd24e606464e8abdf837b64090ff'}, {'parent_id': 'dea0dd24e606464e8abdf837b64090ff', 'department_name': '测试部门', 'tax_no': '', 'is_branch': 0, 'department_id': '6d10819ca3f2434780ee7ba86136459b'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '四川省医学科学院（四川省人民医院）', 'tax_no': '1251000045071756XY', 'is_branch': 1, 'department_id': '8da63bfd4a0a482cb8661c0bcdec7693'}]}}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_department_select[params2]",
+          "uid" : "f884175f0c08a66f",
+          "parentUid" : "b48fae45e27c0a8d51d99821fef564af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784224144,
+            "stop" : 1596784224272,
+            "duration" : 128
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department', '预期结果': \"{'msg': '成功', 'code': 0, 'data': {'count': 226, 'rows': [{'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '北京爱亲科技股份有限公司', 'tax_no': '91110101556883371X', 'is_branch': 1, 'department_id': '363a2d4bb727489981a4e4571b6d1359'}, {'parent_id': '363a2d4bb727489981a4e4571b6d1359', 'department_name': '财务部1', 'tax_no': '', 'is_branch': 0, 'department_id': '8cb0e19d1e6f48b1a9ee0bc868e189fe'}, {'parent_id': '363a2d4bb727489981a4e4571b6d1359', 'department_name': '行政部', 'tax_no': '', 'is_branch': 0, 'department_id': '6b5e4fe97f854d9c99823651eb5ec969'}, {'parent_id': '6b5e4fe97f854d9c99823651eb5ec969', 'department_name': '秘书部', 'tax_no': '', 'is_branch': 0, 'department_id': 'eed10dcf91cf41cc8913a857a8d55bb9'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '重庆市华西口腔门诊有限公司', 'tax_no': '91500107MA5U4GB33L', 'is_branch': 1, 'department_id': '3a8d5a5179324454be00e0e6a254f7e5'}, {'parent_id': '3a8d5a5179324454be00e0e6a254f7e5', 'department_name': '市场部', 'tax_no': '', 'is_branch': 0, 'department_id': '0f27880843614e439cddad197af385b4'}, {'parent_id': '3a8d5a5179324454be00e0e6a254f7e5', 'department_name': '技术部', 'tax_no': '', 'is_branch': 0, 'department_id': 'd5b14bd118dd4617b935ffb571502e10'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '北京缔联科技有限公司3', 'tax_no': '23213123', 'is_branch': 1, 'department_id': 'dea0dd24e606464e8abdf837b64090ff'}, {'parent_id': 'dea0dd24e606464e8abdf837b64090ff', 'department_name': '测试部门', 'tax_no': '', 'is_branch': 0, 'department_id': '6d10819ca3f2434780ee7ba86136459b'}, {'parent_id': 'ed904db972ed4e53a9a6b0bbadf0e617', 'department_name': '四川省医学科学院（四川省人民医院）', 'tax_no': '1251000045071756XY', 'is_branch': 1, 'department_id': '8da63bfd4a0a482cb8661c0bcdec7693'}]}}\", '用例级别': 'p0'}" ]
+        } ],
+        "uid" : "b48fae45e27c0a8d51d99821fef564af"
+      } ],
+      "uid" : "e60f51b106ea7da746d1cea46ffa942d"
+    }, {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "TestUserP0",
+        "children" : [ {
+          "name" : "test_user_add[params0]",
+          "uid" : "e01edd483f9a518c",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784221666,
+            "stop" : 1596784222415,
+            "duration" : 749
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/add/user', 'username': 'testapi@qq.com', 'realname': 'test', 'role': 1, 'password': 1, 'target_department_id': '363a2d4bb727489981a4e4571b6d1359', 'is_login': 1, '预期结果': \"{'msg': '成功', 'code': 0, 'data': {'user_id': 'b85845483c424536b43bd72a73610663'}}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_user_add[params1]",
+          "uid" : "92bd8bb9fb07a078",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784222422,
+            "stop" : 1596784222577,
+            "duration" : 155
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/add/user', 'username': 'lzzzz@deallinker.cn', 'realname': '李哲', 'role': '1', 'password': '1', 'target_department_id': '363a2d4bb727489981a4e4571b6d1359', 'is_login': '1', '预期结果': \"{'msg': '用户已存在', 'code': 20001, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_user_add[params2]",
+          "uid" : "8a601162d954eab9",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784222581,
+            "stop" : 1596784222740,
+            "duration" : 159
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/add/user', 'username': 'lzzzz@deallinker.cn', 'realname': '李哲', 'role': '1', 'password': '1', 'target_department_id': '363a2d4bb727489981a4e4571b6d13590', 'is_login': '1', '预期结果': \"{'msg': '部门不存在', 'code': 20303, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_user_update[params0]",
+          "uid" : "516372fcfde6354e",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784223449,
+            "stop" : 1596784223594,
+            "duration" : 145
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v2/user/edit', 'user_id': '635efd8321e845c3b963beabe5fd711a', 'department_ids': '363a2d4bb727489981a4e4571b6d1359', 'username': 'testapi@qq.com', 'is_link': 0, '预期结果': \"{'msg': '成功', 'code': 0, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_user_update[params1]",
+          "uid" : "90698d50235c02e0",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784223603,
+            "stop" : 1596784223691,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v2/user/edit', '预期结果': \"{'msg': 'target参数错误', 'code': 21002, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_user_update[params2]",
+          "uid" : "c4e28c455bf102a3",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784223696,
+            "stop" : 1596784223845,
+            "duration" : 149
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v2/user/edit', 'user_id': 'abd48664b8474c8ca8368c09c060bd93', 'department_ids': '363a2d4bb727489981a4e4571b6d13592', 'username': 'lll@deallinker.cn', '预期结果': \"{'msg': 'department_ids参数错误', 'code': 21002, 'data': None}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_user_select[params0]",
+          "uid" : "4d1545cbf09ff61",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784224284,
+            "stop" : 1596784224421,
+            "duration" : 137
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/user', 'page_num': 1, 'page_size': 10, 'department_id': '363a2d4bb727489981a4e4571b6d1359', '预期结果': \"{'msg': '成功', 'code': 0, 'data': {'count': 162, 'rows': [{'number': None, 'user_id': '9fbba0a167464d1ea7d1468e98c55a9e', 'email': '020218@qq.com', 'realname': '测试账号1'}, {'number': '123456', 'user_id': '54681c8accc049bfb58c675700969b71', 'email': '09021018@qq.com', 'realname': '王鹏'}, {'number': None, 'user_id': '9d55c7836fac4257a4c1bd18bf159379', 'email': 'yangyang@deallinker.cn', 'realname': 'Young'}, {'number': None, 'user_id': '108ef79c43f0445dbf60875ae4a83bb2', 'email': '020256@qq.com', 'realname': '管理员'}, {'number': None, 'user_id': '9860f9d553f04473bceb2aca4f8bb6ea', 'email': 'suilintong@deallinker.cn', 'realname': '隋林桐'}, {'number': None, 'user_id': '353165a446284638a3ad8c5a1fe720eb', 'email': 'zhangmeiyang123@deallinker.cn', 'realname': '张媚阳'}, {'number': None, 'user_id': 'd5479d0f291049468b9b57891bc1acd6', 'email': 'ceshi01@qq.com', 'realname': '李冬天'}, {'number': None, 'user_id': '17fdaeb75895437dba2252453d5a4a5f', 'email': 'qjing666@163.com', 'realname': 'qjing'}, {'number': None, 'user_id': '2e98b5e7ffab4053b31a195118cd8d42', 'email': 'zhongchanghui123@qq.com', 'realname': '钟'}, {'number': None, 'user_id': '9bce257f55374cdd9dc2976b1ec781c5', 'email': 'zhong@163.com', 'realname': '测试员工'}]}}\", '用例级别': 'p0'}" ]
+        }, {
+          "name" : "test_user_select[params1]",
+          "uid" : "c3ca757431b3de1b",
+          "parentUid" : "86ba27666c3e0e58a193d4b2e41e0b4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784224428,
+            "stop" : 1596784224532,
+            "duration" : 104
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/user', 'page_num': 1, 'page_size': 10, 'department_id': '363a2d4bb727489981a4e4571b6d13590', '预期结果': \"{'msg': '部门不存在', 'code': 21003, 'data': None}\", '用例级别': 'p0'}" ]
+        } ],
+        "uid" : "86ba27666c3e0e58a193d4b2e41e0b4e"
+      } ],
+      "uid" : "df79d8d2143ccd6bf3827708977b5ca0"
+    } ],
+    "uid" : "acfa67559c923c9af981f2f933283cac"
+  }, {
+    "name" : "testcase.P1_case",
+    "children" : [ {
+      "name" : "test_department",
+      "children" : [ {
+        "name" : "TestDepartmentP1",
+        "children" : [ {
+          "name" : "test_department_add[params0]",
+          "uid" : "3eb449c72ea3f3d6",
+          "parentUid" : "19c7d7bff51510312ffbf94552c9615c",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1596784222744,
+            "stop" : 1596784222744,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "<object object at 0x0000022096DCE510>" ]
+        }, {
+          "name" : "test_department_update[params0]",
+          "uid" : "bd6bc071787fefad",
+          "parentUid" : "19c7d7bff51510312ffbf94552c9615c",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1596784223857,
+            "stop" : 1596784223857,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "<object object at 0x0000022096DCE510>" ]
+        }, {
+          "name" : "test_department_select[params0]",
+          "uid" : "e586ae8982dcc507",
+          "parentUid" : "19c7d7bff51510312ffbf94552c9615c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784224542,
+            "stop" : 1596784224656,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department', 'page_num': 0.1, 'page_size': 10, '预期结果': \"{'msg': '签名错误', 'code': 21000, 'data': None}\", '用例级别': 'p1'}" ]
+        }, {
+          "name" : "test_department_select[params1]",
+          "uid" : "759884d8e803bca3",
+          "parentUid" : "19c7d7bff51510312ffbf94552c9615c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784224663,
+            "stop" : 1596784224754,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/department', 'page_num': 1, 'page_size': 0.1, '预期结果': \"{'msg': '签名错误', 'code': 21000, 'data': None}\", '用例级别': 'p1'}" ]
+        } ],
+        "uid" : "19c7d7bff51510312ffbf94552c9615c"
+      } ],
+      "uid" : "35b575a371d6421b772eef47bf620659"
+    }, {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "TestUserP1",
+        "children" : [ {
+          "name" : "test_user_add[params0]",
+          "uid" : "6cc6e25adeeaf794",
+          "parentUid" : "58cd7bddbcfe86240e3d7017bf2cb53c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784222754,
+            "stop" : 1596784222846,
+            "duration" : 92
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/add/user', 'username': 'leelz@qq.com', 'realname': '李哲', 'role': '1', 'password': '1', 'target_department_id': '363a2d4bb727489981a4e4571b6d1359', 'is_login': '11', '预期结果': \"{'msg': 'is_login参数错误', 'code': 10002, 'data': None}\", '用例级别': 'p1'}" ]
+        }, {
+          "name" : "test_user_update[params0]",
+          "uid" : "82cb543848c0c0b7",
+          "parentUid" : "58cd7bddbcfe86240e3d7017bf2cb53c",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1596784223864,
+            "stop" : 1596784223864,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "<object object at 0x0000022096DCE510>" ]
+        }, {
+          "name" : "test_user_select[params0]",
+          "uid" : "3c6f27280715cb08",
+          "parentUid" : "58cd7bddbcfe86240e3d7017bf2cb53c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1596784224763,
+            "stop" : 1596784224896,
+            "duration" : 133
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'api': '/api/v1/user', 'page_num': 1, 'page_size': 0.1, 'department_id': '363a2d4bb727489981a4e4571b6d1359', '预期结果': \"{'msg': '签名错误', 'code': 21000, 'data': None}\", '用例级别': 'p1'}" ]
+        } ],
+        "uid" : "58cd7bddbcfe86240e3d7017bf2cb53c"
+      } ],
+      "uid" : "d898e8157049783b294ff93207b1d2fe"
+    } ],
+    "uid" : "ed2b8fe5c8ca9199f1737747eab0ded2"
+  } ]
+}

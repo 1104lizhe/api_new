@@ -1,0 +1,7 @@
+celery==4.1.0
+ddt==1.4.0
+pytest==5.4.3
+request==2019.4.13
+requests==2.18.4
+xlrd==1.0.0
+
