@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8da89da80fe51483",
+      "uid" : "ef44f279b07fa2fe",
       "status" : "passed",
       "time" : {
-        "start" : 1604478231062,
-        "stop" : 1604478231229,
-        "duration" : 167
+        "start" : 1604480906701,
+        "stop" : 1604480906824,
+        "duration" : 123
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ba9422946066cf7",
+      "uid" : "f2e8a44182d75f0c",
       "status" : "passed",
       "time" : {
-        "start" : 1604478230777,
-        "stop" : 1604478230918,
-        "duration" : 141
+        "start" : 1604480906418,
+        "stop" : 1604480906554,
+        "duration" : 136
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87ddfbd4330f6812",
+      "uid" : "547ccca7b4ad6871",
       "status" : "passed",
       "time" : {
-        "start" : 1604478228023,
-        "stop" : 1604478228211,
-        "duration" : 188
+        "start" : 1604480904869,
+        "stop" : 1604480905046,
+        "duration" : 177
       }
     } ]
   },
@@ -66,31 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d358828f49befbbc",
+      "uid" : "c587ae187bb5ee23",
       "status" : "passed",
       "time" : {
-        "start" : 1604478231606,
-        "stop" : 1604478231723,
-        "duration" : 117
-      }
-    } ]
-  },
-  "c72aebb1945d18f97da5a435a7ae62d3" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1489d09fd5c4d06b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604478228217,
-        "stop" : 1604478228400,
-        "duration" : 183
+        "start" : 1604480907203,
+        "stop" : 1604480907327,
+        "duration" : 124
       }
     } ]
   },
@@ -104,12 +85,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba2f9e9614c14695",
+      "uid" : "c4bf3af936287c28",
       "status" : "passed",
       "time" : {
-        "start" : 1604478228418,
-        "stop" : 1604478228511,
-        "duration" : 93
+        "start" : 1604480905220,
+        "stop" : 1604480905315,
+        "duration" : 95
+      }
+    } ]
+  },
+  "c72aebb1945d18f97da5a435a7ae62d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62059708d3870421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480905052,
+        "stop" : 1604480905208,
+        "duration" : 156
       }
     } ]
   },
@@ -123,12 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0cb58a736147535",
+      "uid" : "da86d48ab5ea94e1",
       "status" : "passed",
       "time" : {
-        "start" : 1604478231383,
-        "stop" : 1604478231494,
-        "duration" : 111
+        "start" : 1604480906983,
+        "stop" : 1604480907093,
+        "duration" : 110
       }
     } ]
   },
@@ -142,32 +142,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bfc2a71af1d34522",
+      "uid" : "b1f694df33d4e82e",
       "status" : "passed",
       "time" : {
-        "start" : 1604478227825,
-        "stop" : 1604478228019,
-        "duration" : 194
-      }
-    } ]
-  },
-  "f915ba3106cec35aa9ee104186dd04ac" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cacd4254704866af",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: got empty parameter set ['params'], function test_user_update at C:\\Users\\ly\\PycharmProjects\\test_api\\testcase\\P1_case\\test_user.py:56",
-      "time" : {
-        "start" : 1604478230773,
-        "stop" : 1604478230773,
-        "duration" : 0
+        "start" : 1604480904682,
+        "stop" : 1604480904865,
+        "duration" : 183
       }
     } ]
   },
@@ -181,12 +161,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aea2cf3902c77195",
+      "uid" : "d02fa3b83e49cf47",
       "status" : "passed",
       "time" : {
-        "start" : 1604478230602,
-        "stop" : 1604478230765,
-        "duration" : 163
+        "start" : 1604480906245,
+        "stop" : 1604480906399,
+        "duration" : 154
+      }
+    } ]
+  },
+  "f915ba3106cec35aa9ee104186dd04ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b58c5689bcf6e5b3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['params'], function test_user_update at C:\\Users\\ly\\PycharmProjects\\test_api\\testcase\\P1_case\\test_user.py:56",
+      "time" : {
+        "start" : 1604480906412,
+        "stop" : 1604480906412,
+        "duration" : 0
       }
     } ]
   },
@@ -200,12 +200,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51a20ee8e2ae5b1b",
+      "uid" : "5a65d1178bbb4d6d",
       "status" : "skipped",
       "statusDetails" : "Skipped: got empty parameter set ['params'], function test_department_update at C:\\Users\\ly\\PycharmProjects\\test_api\\testcase\\P1_case\\test_department.py:57",
       "time" : {
-        "start" : 1604478230769,
-        "stop" : 1604478230769,
+        "start" : 1604480906406,
+        "stop" : 1604480906406,
         "duration" : 0
       }
     } ]
@@ -220,12 +220,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "542e3cc97a7a371b",
+      "uid" : "4d2c8de9341e9b86",
       "status" : "passed",
       "time" : {
-        "start" : 1604478228849,
-        "stop" : 1604478230092,
-        "duration" : 1243
+        "start" : 1604480905661,
+        "stop" : 1604480905825,
+        "duration" : 164
       }
     } ]
   },
@@ -239,12 +239,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "db030365c093b80c",
+      "uid" : "1b73290f91bf7c5e",
       "status" : "passed",
       "time" : {
-        "start" : 1604478228515,
-        "stop" : 1604478228691,
-        "duration" : 176
+        "start" : 1604480905321,
+        "stop" : 1604480905480,
+        "duration" : 159
       }
     } ]
   },
@@ -258,12 +258,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e5ae2dc96d440ae",
+      "uid" : "c5e8bb4d4b33f91c",
       "status" : "passed",
       "time" : {
-        "start" : 1604478231235,
-        "stop" : 1604478231379,
-        "duration" : 144
+        "start" : 1604480906829,
+        "stop" : 1604480906969,
+        "duration" : 140
       }
     } ]
   },
@@ -277,31 +277,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "765253b0b1ca00b1",
+      "uid" : "57f366b2d61c187b",
       "status" : "passed",
       "time" : {
-        "start" : 1604478230476,
-        "stop" : 1604478230598,
-        "duration" : 122
-      }
-    } ]
-  },
-  "545c6a3402c0aece104368645aa5613d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8a981bf62a1a88e6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604478227240,
-        "stop" : 1604478227405,
-        "duration" : 165
+        "start" : 1604480906151,
+        "stop" : 1604480906242,
+        "duration" : 91
       }
     } ]
   },
@@ -315,12 +296,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eac9994293e0ca",
+      "uid" : "e77d07a6bd94e53a",
       "status" : "passed",
       "time" : {
-        "start" : 1604478231728,
-        "stop" : 1604478231836,
-        "duration" : 108
+        "start" : 1604480907332,
+        "stop" : 1604480907438,
+        "duration" : 106
+      }
+    } ]
+  },
+  "545c6a3402c0aece104368645aa5613d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a84bc830ee38c5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480903925,
+        "stop" : 1604480904093,
+        "duration" : 168
       }
     } ]
   },
@@ -334,12 +334,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87d125eb8eec88a4",
+      "uid" : "5e4e7907cc5865b7",
       "status" : "skipped",
       "statusDetails" : "Skipped: got empty parameter set ['params'], function test_department_add at C:\\Users\\ly\\PycharmProjects\\test_api\\testcase\\P1_case\\test_department.py:39",
       "time" : {
-        "start" : 1604478228404,
-        "stop" : 1604478228404,
+        "start" : 1604480905213,
+        "stop" : 1604480905213,
         "duration" : 0
       }
     } ]
@@ -354,12 +354,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3ae5f3b7e35c454f",
+      "uid" : "2b471d64eca7b07f",
       "status" : "passed",
       "time" : {
-        "start" : 1604478230921,
-        "stop" : 1604478231059,
-        "duration" : 138
+        "start" : 1604480906561,
+        "stop" : 1604480906694,
+        "duration" : 133
       }
     } ]
   },
@@ -373,12 +373,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "26dde1372906ef75",
+      "uid" : "55d61351ff413ab4",
       "status" : "passed",
       "time" : {
-        "start" : 1604478228694,
-        "stop" : 1604478228845,
-        "duration" : 151
+        "start" : 1604480905484,
+        "stop" : 1604480905653,
+        "duration" : 169
       }
     } ]
   },
@@ -392,50 +392,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "786567b8720bf9e9",
+      "uid" : "13c71849dcf072a0",
       "status" : "passed",
       "time" : {
-        "start" : 1604478230276,
-        "stop" : 1604478230469,
-        "duration" : 193
-      }
-    } ]
-  },
-  "5d51d7003a8509c3c4b1d560722aaf8a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "566a9c329e05749f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604478230099,
-        "stop" : 1604478230268,
-        "duration" : 169
-      }
-    } ]
-  },
-  "eda18e0f70c454c68c0b5b3213afb0f3" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8d07b7b384c6fbb1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604478227409,
-        "stop" : 1604478227634,
-        "duration" : 225
+        "start" : 1604480905962,
+        "stop" : 1604480906147,
+        "duration" : 185
       }
     } ]
   },
@@ -449,12 +411,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c0e609d4b725185",
+      "uid" : "767cd3a2ced5f936",
       "status" : "passed",
       "time" : {
-        "start" : 1604478231500,
-        "stop" : 1604478231600,
-        "duration" : 100
+        "start" : 1604480907097,
+        "stop" : 1604480907200,
+        "duration" : 103
       }
     } ]
   },
@@ -468,12 +430,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af3b556d58942a0a",
+      "uid" : "5da772f2c38bf6a8",
       "status" : "passed",
       "time" : {
-        "start" : 1604478227638,
-        "stop" : 1604478227814,
-        "duration" : 176
+        "start" : 1604480904258,
+        "stop" : 1604480904676,
+        "duration" : 418
+      }
+    } ]
+  },
+  "eda18e0f70c454c68c0b5b3213afb0f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c90abadd79bf5378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480904098,
+        "stop" : 1604480904253,
+        "duration" : 155
+      }
+    } ]
+  },
+  "5d51d7003a8509c3c4b1d560722aaf8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90998e038f05f105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480905831,
+        "stop" : 1604480905957,
+        "duration" : 126
       }
     } ]
   }
