@@ -29,8 +29,8 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
 
 
 if __name__ == '__main__':
-    print(100 / 100)
+    print(10 / 100)
     if 100 / 100 < 1:
         print(11111)
     a = '{:.2%}'.format(10 / 100)
-    print(float(a))
+    print(a)

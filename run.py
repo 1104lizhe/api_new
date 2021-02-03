@@ -1,5 +1,6 @@
 # _*_coding:utf-8_*_
 import pytest, os, allure
+import math
 
 if __name__ == "__main__":
     # os.system('cd C:\Users\ly\PycharmProjects\api_new_git')
